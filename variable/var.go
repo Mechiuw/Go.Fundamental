@@ -17,6 +17,7 @@ func main() {
 
 	variables()
 	multiple()
+	variableNames()
 }
 
 func variables() {
@@ -45,4 +46,17 @@ func multiple() {
 		x3 string = "example"
 	)
 	fmt.Println(x1, x2, x3)
+}
+
+func variableNames() {
+	// camelCase
+	camelCaseVariable := "variable 01"
+
+	//PascalCase
+	PascalCaseVariable := "Variable 02"
+
+	//Snake_Case
+	snake_case_variable := "variable 03"
+
+	fmt.Println(camelCaseVariable, PascalCaseVariable, snake_case_variable)
 }
