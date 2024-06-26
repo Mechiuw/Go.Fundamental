@@ -16,4 +16,11 @@ func main() {
 	for i := 1; i < len(b); i++ {
 		fmt.Println(i, b[i])
 	}
+
+	//empty map
+	var c = make(map[string]string)
+	var d map[string]string
+
+	fmt.Println(c)
+	fmt.Println(d)
 }
